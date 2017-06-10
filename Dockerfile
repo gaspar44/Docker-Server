@@ -17,4 +17,4 @@ RUN ifconfig eth0 | grep 172.17.0.* | awk '{ print $2 }' >> IP.txt
 ENV PUERTO 9999
 
 # Ejecutamos el servidor
-CMD ["python","Socket2.py"]
+CMD ["python","Socket.py"]
