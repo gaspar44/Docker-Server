@@ -42,5 +42,5 @@ servidor = socketserver.TCPServer((host,puerto),TCPHandler)  # Creamos el servid
 
 print("Servidor corriendo")
 
-# Ejecutamos de forma permanente el servidor
+# Ejecutamos de forma permanente el servidor( es como un while True)
 servidor.serve_forever()
